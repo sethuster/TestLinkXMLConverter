@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]> 
+</details><testsuite name="Functional / Regression Testing" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]> 
+</details><testsuite name="Audio Bible Listening" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="553" name="English - Audio Bible Listening player works properly">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to play, fast-forward, rewind and pause the audio without any issues while listening to the Bible</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="555" name="English - Able to navigate browse and chapers">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to use Book and verse navigation and are able to choose any book and verse from the list</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="557" name="Able to listen to the Bible in Both English and Arabic">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to listen to the Bible in English and Arabic<br />
+The app should track the minutes<br />
+The audio player should work well in both English and Arabic</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="559" name="English - Launch Bible audio">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the red Bible icon in the upper-right will launch the audio player.</p>]]></summary>
+	<preconditions><![CDATA[<p>Needs to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="561" name="English - Audio progress bar can be dragged">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Dragging the audio progress bar to a different position should advance (or rewind) the audio to the chosen position</p>]]></summary>
+	<preconditions><![CDATA[<p>Needs to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="563" name="English - Audio progress bar can be tapped">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping a position in the audio progress bar should advance the audio to the tapped position.</p>]]></summary>
+	<preconditions><![CDATA[<p>Needs to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="565" name="Arabic - Audio Bible Listening player works properly">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to play, fast-forward, rewind and pause the audio without any issues while listening to the Bible</p>]]></summary>
+	<preconditions><![CDATA[<p>Needs to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="567" name="Arabic - Able to navigate browse and chapers">
+	<node_order><![CDATA[107]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to use Book and verse navigation and are able to choose any book and verse from the list</p>]]></summary>
+	<preconditions><![CDATA[<p>Need to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="569" name="Arabic - Launch Bible audio">
+	<node_order><![CDATA[108]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the red Bible icon in the upper-right will launch the audio player.</p>]]></summary>
+	<preconditions><![CDATA[<p>Need to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="571" name="Arabic - Audio progress bar can be dragged">
+	<node_order><![CDATA[109]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Dragging the audio progress bar to a different position should advance (or rewind) the audio to the chosen position</p>]]></summary>
+	<preconditions><![CDATA[<p>Need to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="573" name="Arabic - Audio progress bar can be tapped">
+	<node_order><![CDATA[110]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping a position in the audio progress bar should advance the audio to the tapped position.</p>]]></summary>
+	<preconditions><![CDATA[<p>Need to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite><testsuite name="Games" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="638" name="Find it - Users are able to play Find it game properly">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[44]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to find hidden crosses </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="640" name="Find it - Next screen button indicator displays when finding all of the crosses">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[45]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When users find all of the crosses on a page, there should be the next screen indicatior so that users can navigate to the next page<br />
+&nbsp;cross count in current page<br />
+&nbsp;display arrow pulsing at the right side of screen after finding all crosses<br />
+&nbsp;display success messaging followed by completion screen after finding all crosses for a story</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="642" name="Find it - Blue chevron button">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>While users play the Find it game, they can jump (skip) to other game page by tapping the blue chevron button which is at the right bottom of the page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="644" name="Find it - Cross counter increments">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to check the increments of the cross counter (which is in the upper-right area of the story screen) when they find the hidden crosses while playing the game</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="646" name="Puzzle - Users are able to play Puzzle game properly">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[48]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to snap puzzle pieces on the illustrations from each story</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="648" name="Puzzle - Puzzle pieces move smoothly when a piece is closer to the correct spot">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[49]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Puzzle piece should move properly when dragging or snapping a piece to near the correct spot</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="650" name="Puzzle - Select easy, medium or hard puzzle level">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[50]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users are able to select the puzzle levels like easy, medium, or hard by tapping the buttons </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="652" name="Puzzle - Display the result page when the puzzle game is completed">
+	<node_order><![CDATA[107]]></node_order>
+	<externalid><![CDATA[51]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users are able to review the scores and points and are able to navigate to the Next game, repaly the game, and go back to the puzzles game page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="654" name="Listeninig to the audio Bible while playing a game">
+	<node_order><![CDATA[108]]></node_order>
+	<externalid><![CDATA[52]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users are able to play games while they are listening to the audio bible at the same time</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="656" name="Memory Verses - Users are able to play Memory Verse game properly">
+	<node_order><![CDATA[109]]></node_order>
+	<externalid><![CDATA[53]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to play this game to help them memorize verses from each story</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="658" name="Memory Verses - Correct Title with correct memory verse">
+	<node_order><![CDATA[110]]></node_order>
+	<externalid><![CDATA[54]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The app should display the correct title for the corresponding memory verse from the verse list and the activity screens</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="660" name="Memory Verses - Size of Tiles should match with the correct spots">
+	<node_order><![CDATA[111]]></node_order>
+	<externalid><![CDATA[55]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The size of the tiles should match with the correct spots so that users can find the correct spot easily</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="662" name="Memory Verses - Verse Recording options">
+	<node_order><![CDATA[112]]></node_order>
+	<externalid><![CDATA[56]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>There should be a Verse Recording button, Delete Recording button, and Playback button, and a Done button. After clicking the Done button, it should navigate to the end page which contains Verses, Replay and Next Verse buttons. At the bottom of the page, there are 3 icons for playing more games</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="664" name="Memory Verses - Cancel option in delete alerts">
+	<node_order><![CDATA[113]]></node_order>
+	<externalid><![CDATA[57]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>There should be a Cancel option in the delete alerts</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="666" name="Color Pages - Coloring Tools have textures">
+	<node_order><![CDATA[114]]></node_order>
+	<externalid><![CDATA[58]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that Pencil, Marker, and Brush tools have some textures </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="668" name="Color Pages - Color Pages options">
+	<node_order><![CDATA[115]]></node_order>
+	<externalid><![CDATA[59]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to use all of the color pages options:<br />
+&nbsp;selecting different brush size<br />
+&nbsp;selecting different colors</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="670" name="Color Pages - Share and Save options">
+	<node_order><![CDATA[116]]></node_order>
+	<externalid><![CDATA[60]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>sending the color pages to email</p>
+<p>saving to camera roll</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="678" name="Memory Verses - Corresponding story image is background to Memory verses">
+	<node_order><![CDATA[117]]></node_order>
+	<externalid><![CDATA[64]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>It should display the corresponding story image as background to Memory Verses</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite><testsuite name="Activities" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]> 
+</details></testsuite><testsuite name="Armory" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="680" name="Armor of God - Able to collect all armor pieces from completing activities">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[65]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users are able to collect points when they listen to the stories and playing activities</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="682" name="Archivements - The Achievements section from the Armory displays each activity results">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[66]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The Achievements section contains:<br />
+Crosses Found, Stories Completed, Puzzles Solved, Verses Memorized, Thoughts Recorded, Minutes Listened</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="684" name="Recordings - Able to replay, delete, and send records in the Recordings section of the Armory">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[67]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users are able to replay, delete, and send records in the Recordings section under the Armory menu without any issues</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite><testsuite name="Stories" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="602" name="English - Display the Instructions when selecting one of stories">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When Users select one of the stories, The Instructions pops up with the continue button on it</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="604" name="English - Paused box play button">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Play&quot; button. The box should disappear and the app should start playing the story audio</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="606" name="English - Paused box restart button">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Restart&quot; button which is next to the &quot;Play&quot; button. The box should disappear and the app should restart playing the story audio from the beginning</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="608" name="English - Paused box home button">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Pased&quot; box should pops up. Tapping the &quot;Home&quot; button. The box is disappeared and it should navigate to the main page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="610" name="English - Paused box stories button">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Stories&quot; button. The box should disappear and the app should navigate to the Stories page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="612" name="English - Paused box help (?) button">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;?&quot; button. The box should disappear and the app should display the Instructions box</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="614" name="English - Cross counter increments">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p><span lang="en-US"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;">Users should be able to check the increments of the cross counter (which is <font color="#1F497D">in </font>the upper-right area of the story screen) when they find the hidden crosses in the current story page while listening to the story</span></font></span></p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="616" name="English - Points/coins accrued in Result page">
+	<node_order><![CDATA[107]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to check or review the results of points, cross increments, and other scores when they finish listening to each story </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="618" name="English - Scenes change when progress bar crosses into new section">
+	<node_order><![CDATA[108]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Each story contains multiple scenes. Users are able to see the scene changes when the progress bar crosses into a new section</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="620" name="Arabic - Display the Instructions when selecting one of stories">
+	<node_order><![CDATA[109]]></node_order>
+	<externalid><![CDATA[35]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When Users select one of the stories, The Instructions pops up with the continue button on it</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="622" name="Arabic - Paused box play button">
+	<node_order><![CDATA[110]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Play&quot; button. The box should disappear and the app should start playing the story audio</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="624" name="Arabic - Paused box restart button">
+	<node_order><![CDATA[111]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Restart&quot; button which is next to the &quot;Play&quot; button. The box should disappear and the app should restart playing the story audio from the beginning</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="626" name="Arabic - Paused box home button">
+	<node_order><![CDATA[112]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Pased&quot; box should pops up. Tapping the &quot;Home&quot; button. The box is disappeared and it should navigate to the main page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="628" name="Arabic - Paused box stories button">
+	<node_order><![CDATA[113]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;Stories&quot; button. The box should disappear and the app should navigate to the Stories page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="630" name="Arabic - Paused box help (?) button">
+	<node_order><![CDATA[114]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tap the &quot;Pause&quot; icon which is the bottom left of the story screen. The &quot;Paused&quot; box should pop up. Tap the &quot;?&quot; button. The box should disappear and the app should display the Instructions box</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="632" name="Arabic - Cross counter increments">
+	<node_order><![CDATA[115]]></node_order>
+	<externalid><![CDATA[41]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p><span lang="en-US"><font size="3" face="Times New Roman,serif"><span style="font-size:12pt;">Users should be able to check the increments of the cross counter (which is <font color="#1F497D">in </font>the upper-right area of the story screen) when they find the hidden crosses in the current story page while listening to the story</span></font></span></p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="634" name="Arabic - Points/coins accrued in Result page">
+	<node_order><![CDATA[116]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Users should be able to check or review the results of points, cross increments, and other scores when they finish listening to each story </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="636" name="Arabic - Scenes change when progress bar crosses into new section">
+	<node_order><![CDATA[117]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Each story contains multiple scenes. Users are able to see the scene changes when the progress bar crosses into a new section</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite><testsuite name="Others" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="594" name="Interruption - email, notifications, messages">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When users are getting an email or some notifications from other apps or text messages while using the app, it should not bother the app process /actions</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="596" name="Device Settings - Stable behavior with different regional settings">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When the device has a different regional setting selected, it should behave the same as it does in the US.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="598" name="Device Settings - Stable behavior in different languages">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When the device has a different language setting selected, it should behave the same as it does in English</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="600" name="Device Settings - Stable behavior in airplane mode">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When the device is in airplane mode, it should behave the same as when airplane mode is off.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="672" name="Parental Gate - Popup alert with math questions">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[61]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When users try to email Memory verse recordings, What the story meant to me recordings, and Coloring pages, the alert popup should display and ask math questions (addition / subtraction of 2 digit numbers)? </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="674" name="Parental Gate - Process of Sending a file to email using valid email address">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[62]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The alerts pops up when tapping email button to ask a simple math question. Users should put the answer and hit the continue button to send it to a valid email address. Users should be able to send the file by email.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="676" name="Parental Gate - Process of Sending a file to email using invalid email address">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[63]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The alerts pops up when tapping email button to ask a simple math question. Users should put the answer and hit the continue button and send it to an invalid email address. Invalid Adress alerts should pop up telling the user to correct the e-mail address.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite><testsuite name="Main Screen" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]> 
+</details>
+<testcase internalid="576" name="English - For Parents icon navigates to the details page">
+	<node_order><![CDATA[100]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping on the For Parents icon / section from the main page. It should navigate to the details page</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="578" name="English - URLs navigate correctly when clicked in &quot;About this App&quot;">
+	<node_order><![CDATA[101]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When you click on either of the two URLs in the &quot;About this App&quot; section, they should correctly launch the browser and go to a live website.</p>]]></summary>
+	<preconditions><![CDATA[<p>Need to have a network connection</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="580" name="English - For Parents, Privacy policy content available">
+	<node_order><![CDATA[102]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Privacy policy text is viewable when the &quot;Privacy Policy&quot; tab is clicked.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="582" name="English - For Parents, Terms of use content available">
+	<node_order><![CDATA[103]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Terms of use text is viewable when the &quot;Terms of Use&quot; tab is tapped.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="584" name="Change language setting">
+	<node_order><![CDATA[104]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the red button which is under the &quot;For Parents&quot; icon / section. Users should be able to change language setting in either English or Arabic </p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="586" name="The App is loading properly when tapping the app icon">
+	<node_order><![CDATA[105]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Tapping the Kidz Bible app to start it on the device. It should load properly with a reasonable loading time</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="588" name="All of the app menus are displayed properly after launching it">
+	<node_order><![CDATA[106]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>All of the app's top-level menus like &quot;Stories&quot;, &quot;Games&quot;, and &quot;Armory&quot; should display on the launch page. Make sure the &quot;FCBH logo&quot; (A Ministry of faith Comes By Hearing) is present.</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="590" name="Display the Armor of God Introduction for the first time users">
+	<node_order><![CDATA[107]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>The Armor of God Introduction should be displayed when starting the app for the first time<br />
+Avatar should change from tunic to armor<br />
+User proceeds to Armor Avatar selection screen<br />
+Once avatar has been selected, user is taken to the home screen</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+
+<testcase internalid="592" name="When switching to either landscape or portrait mode, the app should be stable condition">
+	<node_order><![CDATA[108]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>When users switch to either landscape or portrait mode of devices, the app should be stable condition and users should be able to keep using the app without any issues or the app crashes</p>]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+</testcase>
+</testsuite></testsuite></testsuite>
